@@ -1,0 +1,20 @@
+{
+  "name": "vimeoWidget",
+  "version": "0.0.1",
+  "description": "Framework free JS vimeo embedding widget",
+  "keywords": [
+    "vimeo",
+    "widget",
+    "ajax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtff0nzie/vimeoWidget"
+  },
+  "bugs": {
+    "url": "https://github.com/wtff0nzie/vimeoWidget"
+  },
+  "author": "Dez Iddon",
+  "license": "MIT",
+  "main": "vimeoWidget.js"
+}
