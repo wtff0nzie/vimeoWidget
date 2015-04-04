@@ -124,10 +124,3 @@ var vemiofy = function (options) {
         getData();
     }
 };
-
-vemiofy({
-    video       : '.mainArea_directors .sideBarMiddle .video',
-    detail      : '.mainArea_directors .sideBarRight .info',
-    bio         : '.mainArea_directors .sideBarLeft .bio',
-    thumbnails  : '.mainArea_thumbnails .reel-video'
-});
