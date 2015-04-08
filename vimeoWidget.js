@@ -1,4 +1,4 @@
-var vemiofy = function (options) {
+var vemiofy = function (options, callback) {
     'use strict';
 
     var loadedCounter = 0,
@@ -53,6 +53,10 @@ var vemiofy = function (options) {
         detail.innerHTML = q$('.info', el)[0].innerHTML;
         bio.innerHTML = q$('.bio', el)[0].innerHTML;
         video.innerHTML = videoData.html;
+
+        if (win.jQuery && win.jQuery.fn.fitVids) {
+            $(options.video).fitVids();
+        }
     }
 
 

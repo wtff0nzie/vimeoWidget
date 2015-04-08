@@ -1,5 +1,5 @@
 # vimeoWidget
-Framework free JS vimeo embedding widget.
+Vanilla.JS vimeo embedding widget.
 
 ### Usage
 
@@ -8,7 +8,7 @@ Framework free JS vimeo embedding widget.
         <div class="info"></div>
         <div class="bio"></div>
     </div>
-    <div class="thumbs">
+    <div class="crowd">
         <div class="video-thumb" data-video="11213123">
             <div class="info">
                 <p>An awesome video!</p>
@@ -33,9 +33,12 @@ Framework free JS vimeo embedding widget.
             video       : '.stage .video',
             detail      : '.stage .info',
             bio         : '.stage .bio',
-            thumbnails  : '.thumbs .video-thumb'
+            thumbnails  : '.crowd .video-thumb'
         });
     </script>
+
+### FitVid
+The excellent jQuery fitVid plugin gets some love if it's available.
 
 ### Requires
 * Localstorage
